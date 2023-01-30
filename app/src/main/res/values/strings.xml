@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SMRTV RADIO</string>
+    <string name="cargando">Cargando..</string>
+    <string name="titulo">Sistema Michoacano\n de Radio y Televisión</string>
+    <string name="emisoras">106.9 FM Morelia | 99.7 FM Cd. Hidalgo | 97.5 FM Apatzingán | 95.9 FM Jiquilpan | 94.7 FM Lázaro Cárdenas | 88.7 FM La Piedad | 104.9 FM Puruándiro | 95.9 FM Tacámbaro | 103.1 FM Zamora | 96.9 FM Zacapu | 106.3 FM Zitácuaro | 99.7 FM Uruapan</string>
+    <string name="logoDes">SMRTV</string>
+    <string name="volumenDes">Volumen</string>
+    <string name="tituloSueño">Modo Sueño</string>
+    <string name="descripcionSueño">Define la cantidad de tiempo que necesites para que el reproductor se detenga.</string>
+    <string name="min15">15 Minutos</string>
+    <string name="min30">30 Minutos</string>
+    <string name="min60">60 Minutos</string>
+    <string name="urlObsFM">https://60ed5b6d0df78.streamlock.net:1936/smrtvfm/smrtvfm/playlist.m3u8</string>
+    <string name="url">https://60ed5b6d0df78.streamlock.net:1936/smrtvfm/smrtvfm/playlist.m3u8</string>
+    <string name="urlObsAM">https://60ed5b6d0df78.streamlock.net:1936/radioam/radioam/playlist.m3u8</string>
+    <string name="nTitulo">Radio FM | EN VIVO 🔴</string>
+    <string name="nEscuchando">Escuchando</string>
+    <string name="nPausa">Pausa</string>
+</resources>
