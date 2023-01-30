@@ -158,12 +158,15 @@ class MainActivity : AppCompatActivity(), ServiceConnection {
         private fun playRadio(){
             bindingRadio.playPause.setBackgroundResource(R.drawable.boton_on)
             musicService!!.showNotification(R.drawable.pause)
+            bindingRadio.lineas.playAnimation()
             isPlaying = true
             musicService!!.mediaPlayer!!.start()
         }
         private fun pauseRadio(){
             bindingRadio.playPause.setBackgroundResource(R.drawable.boton_2)
             musicService!!.showNotification(R.drawable.play)
+            bindingRadio.lineas.pauseAnimation()
+            bindingRadio.lineas.setFrame(0)
             isPlaying = false
             musicService!!.mediaPlayer!!.pause()
         }

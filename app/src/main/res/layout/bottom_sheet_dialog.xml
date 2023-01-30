@@ -16,7 +16,7 @@
         android:fontFamily="@font/mademedium"
         android:layout_marginEnd="30dp"
         android:text="@string/tituloSueño"
-        android:textColor="#8C8C8C"
+        android:textColor="#636363"
         android:textSize="30sp" />
 
     <TextView

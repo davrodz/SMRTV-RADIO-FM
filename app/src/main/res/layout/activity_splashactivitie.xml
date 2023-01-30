@@ -10,45 +10,20 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/blanco"
         tools:context=".Splashactivitie">
 
-        <com.airbnb.lottie.LottieAnimationView
-            android:id="@+id/fondo"
-            android:layout_width="500pt"
-            android:layout_height="match_parent"
+        <ImageView
+            android:id="@+id/smrtv"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-            app:lottie_rawRes="@raw/fondomontananoche" />
-
-        <TextView
-            android:id="@+id/smrtv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="88dp"
-            android:fontFamily="@font/smrtvrregular"
-            android:text="@string/logoDes"
-            android:textColor="#E6FFFFFF"
-            android:textSize="150sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.49"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/fondo" />
-
-        <TextView
-            android:id="@+id/titulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/cargando"
-            android:textColor="#fff"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/smrtv" />
+            app:layout_constraintVertical_bias="0.017"
+            app:srcCompat="@drawable/logosmrtvandroid" />
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottieAnimation"
@@ -57,13 +32,12 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
-
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/titulo"
+            app:layout_constraintTop_toBottomOf="@+id/smrtv"
             app:layout_constraintVertical_bias="1.0"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
-            app:lottie_rawRes="@raw/loadingblanco" />
+            app:lottie_rawRes="@raw/loadingbarra" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
