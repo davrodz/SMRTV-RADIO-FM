@@ -16,4 +16,7 @@
     <string name="nTitulo">Radio FM | EN VIVO 🔴</string>
     <string name="nEscuchando">Escuchando</string>
     <string name="nPausa">Pausa</string>
+    <string name="error">Sin servicio de internet.</string>
+
+
 </resources>

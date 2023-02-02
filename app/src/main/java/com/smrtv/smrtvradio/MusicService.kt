@@ -58,7 +58,7 @@ class MusicService:Service(), AudioManager.OnAudioFocusChangeListener{
              MainActivity.musicService!!.mediaPlayer!!.setOnErrorListener(MediaPlayer.OnErrorListener {
                      mediaPlayer, i, i2 ->
                  Toast.makeText(this,
-                     "Algo salio mal.",
+                     "Sin servicio de internet.",
                      Toast.LENGTH_LONG).show()
                  true
              })
