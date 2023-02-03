@@ -120,10 +120,10 @@ class MainActivity : AppCompatActivity(), ServiceConnection {
                         min15 = false
                         min30 = false
                         min60 = false
-                        bindingRadio.timerBtn.setBackgroundResource(R.drawable.timer)
+                        bindingRadio.timerBtn.setBackgroundResource(R.drawable.botontiempo)
                     }
-                    .setNegativeButton("No"){dialog, _ ->
-                        dialog.dismiss()
+                        .setNegativeButton("No"){dialog, _ ->
+                            dialog.dismiss()
                     }
                 val customDialog = builder.create()
                 customDialog.show()
@@ -176,7 +176,7 @@ class MainActivity : AppCompatActivity(), ServiceConnection {
             dialog.show()
             dialog.findViewById<LinearLayout>(R.id.min_15)?.setOnClickListener{
                 Toast.makeText(baseContext, "La musica se detendra despues de 15 minutos", Toast.LENGTH_SHORT).show()
-                bindingRadio.timerBtn.setBackgroundResource(R.drawable.timer_play)
+                bindingRadio.timerBtn.setBackgroundResource(R.drawable.botontiempo2)
                 min15 = true
                 Thread{Thread.sleep(15 * 60000)
                 if(min15)
@@ -189,7 +189,7 @@ class MainActivity : AppCompatActivity(), ServiceConnection {
             }
             dialog.findViewById<LinearLayout>(R.id.min_30)?.setOnClickListener {
                 Toast.makeText(baseContext, "La musica se detendra despues de 30 minutos", Toast.LENGTH_SHORT).show()
-                bindingRadio.timerBtn.setBackgroundResource(R.drawable.timer_play)
+                bindingRadio.timerBtn.setBackgroundResource(R.drawable.botontiempo2)
                 min30 = true
                 Thread{Thread.sleep(30 * 60000)
                     if(min30)
@@ -202,7 +202,7 @@ class MainActivity : AppCompatActivity(), ServiceConnection {
             }
             dialog.findViewById<LinearLayout>(R.id.min_60)?.setOnClickListener {
                 Toast.makeText(baseContext, "La musica se detendra despues de 60 minutos", Toast.LENGTH_SHORT).show()
-                bindingRadio.timerBtn.setBackgroundResource(R.drawable.timer_play)
+                bindingRadio.timerBtn.setBackgroundResource(R.drawable.botontiempo2)
                 min60 = true
                 Thread{Thread.sleep(60 * 60000)
                     if(min60)
