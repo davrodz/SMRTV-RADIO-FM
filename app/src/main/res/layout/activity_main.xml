@@ -21,7 +21,8 @@
             android:id="@+id/logo"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/smrtvmetal" />
+            app:srcCompat="@drawable/smrtvmetal"
+            android:contentDescription="@string/smrtv" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/barras"
@@ -58,7 +59,7 @@
             android:layout_height="300dp"
             android:gravity="center"
             android:background="@drawable/boton_2"
-            android:contentDescription="Reproducir" />
+            android:contentDescription="@string/reproducir" />
    </LinearLayout>
    <LinearLayout
         android:id="@+id/botonesMultimedia"
@@ -82,7 +83,7 @@
             android:layout_marginBottom="5dp"
             android:layout_marginEnd="25dp"
             android:background="@drawable/botontiempo"
-            android:contentDescription="Modo Sueño" />
+            android:contentDescription="@string/modo_sue_o" />
         <ImageButton
             android:id="@+id/reload"
             android:layout_width="94dp"
@@ -91,7 +92,7 @@
             android:layout_marginBottom="5dp"
             android:layout_marginStart="25dp"
             android:background="@drawable/botonrecargar"
-            android:contentDescription="Recargar" />
+            android:contentDescription="@string/recargar" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/volumen"
@@ -99,6 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
         android:gravity="center"
         android:background="@drawable/bg_boton"
         android:orientation="horizontal"
@@ -117,6 +119,10 @@
         <SeekBar
             android:id="@+id/seekBarVolumen"
             android:layout_width="match_parent"
-            android:layout_height="40dp" />
+            android:layout_height="50dp"
+            android:thumb="@drawable/thumb_image"
+            android:thumbTint="#FFFFFF"
+            android:progressTint="#FFFFFF"
+            android:progressBackgroundTint="#FFFFFF"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

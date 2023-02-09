@@ -17,6 +17,10 @@
     <string name="nEscuchando">Escuchando</string>
     <string name="nPausa">Pausa</string>
     <string name="error">Sin servicio de internet.</string>
+    <string name="smrtv">SMRTV</string>
+    <string name="reproducir">Reproducir</string>
+    <string name="modo_sue_o">Modo Sueño</string>
+    <string name="recargar">Recargar</string>
 
 
 </resources>
