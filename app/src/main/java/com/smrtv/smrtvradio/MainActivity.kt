@@ -214,10 +214,6 @@ class MainActivity : AppCompatActivity(), ServiceConnection {
         override fun onDestroy() {
         super.onDestroy()
             exitApplication()
-        //mMediapaFondo.release() //fondo video
-        /*if(!MainActivity.isPlaying && MainActivity.musicService != null){
-            exitApplication()
-        }*/
         }
         }
 
