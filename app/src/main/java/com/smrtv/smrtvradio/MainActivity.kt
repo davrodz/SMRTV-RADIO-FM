@@ -44,8 +44,6 @@ class MainActivity : AppCompatActivity(), ServiceConnection {
         bindingRadio = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bindingRadio.root)
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
-        //bindingRadio.emisoras.isSelected = true
-        //bindingRadio.titulo.isSelected = true
         }
         private fun playsmrtv(){
             bindingRadio.playPause.setOnClickListener {
@@ -141,7 +139,6 @@ class MainActivity : AppCompatActivity(), ServiceConnection {
 
         override fun onStart() {
             super.onStart()
-
         }
 
         override fun onPause() {
